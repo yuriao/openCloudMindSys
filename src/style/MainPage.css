@@ -1,0 +1,28 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 10px 0;
+}
+
+.content h1, .content h4 {
+  margin: 10px 0;
+}
